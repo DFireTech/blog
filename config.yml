@@ -1,0 +1,37 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: A New Beginning - A Non-Regular Blog for Non-Regular Folks
+theme: "binario"
+
+Author:
+ name: "Mick, TheGoldenDragon"
+ bio: "I am a tech enthusiast with a lot on my mind. Catch me in JB Live IRC sometimes!"
+ avatar: "img/tdd.png"
+
+params:
+ authorbox: true
+ homeInfoParams:
+  Title: "A Dragon Speaks Through Text"
+  Content: Welcome to my irregular blog. I hope to entertain you with my musings!
+ socialIcons:
+
+ ShowBreadCrumbs: true
+ cover:
+  linkFullImages: true
+ ShowreadingTime: true
+ ShowShareButtons: true
+ ShowPostNavLinks: true
+menu:
+ main: 
+  - identifier: categories
+    name: Categories
+    url: /categories/
+    weight: 10
+  - identifier: tags
+    name: Tags
+    url: /tags/
+    weight: 20
+  - identifier: archives
+    name: Archives
+    url: /archives/
+    weight: 30
