@@ -8,11 +8,6 @@ Author:
  bio: "I am a tech enthusiast with a lot on my mind. Catch me in JB Live IRC sometimes!"
  avatar: "img/tdd.png"
 
-redirects:
- from: "www.goldenblogathon.com/defaultsite"
- to: "www.goldenblogathon.com"
- status: 301
-
 params:
  authorbox: true
  homeInfoParams:
