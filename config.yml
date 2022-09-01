@@ -1,4 +1,4 @@
-baseURL: https://goldenblogathon.sytes.net
+baseURL: https://goldenblogathon.com
 languageCode: en-us
 title: A New Beginning - A Non-Regular Blog for Non-Regular Folks
 theme: "binario"
@@ -14,6 +14,7 @@ params:
   Title: "A Dragon Speaks Through Text"
   Content: Welcome to my irregular blog. I hope to entertain you with my musings!
  socialIcons:
+
 
  ShowBreadCrumbs: true
  cover:
@@ -35,3 +36,8 @@ menu:
     name: Archives
     url: /archives/
     weight: 30
+
+markup:
+ goldmark:
+  renderer:
+   hardWraps: true
