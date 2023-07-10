@@ -38,6 +38,11 @@ Be kind to one another.
 
 TGD
 
+### Breaking News
 
+I did wind up making the Ko-Fi page. Maybe this button works?
 
+{{%kofi%}}
+
+The `hugo server` is acting weird on Debian, so, I just have to push to see!
 
