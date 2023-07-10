@@ -42,7 +42,7 @@ TGD
 
 I did wind up making the Ko-Fi page. Maybe this button works?
 
-{{%kofi%}}
+{{ %kofi %}}
 
 The `hugo server` is acting weird on Debian, so, I just have to push to see!
 
