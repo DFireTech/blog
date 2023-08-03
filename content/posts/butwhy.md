@@ -1,9 +1,9 @@
 ---
-title: "Butwhy"
+title: "Doctors and Meds and Failures, Oh My"
 date: 2023-08-03T06:26:05-05:00
 draft: false
 ---
-{{ <kofi> }}
+{{< kofi >}}
 
 # The Fallacy
 
