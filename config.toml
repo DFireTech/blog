@@ -1,0 +1,30 @@
+baseurl = "https://goldenblogathon.com"
+title = "Golden Blog-A-Thon"
+languageCode = "en-us"
+paginate = "10"
+theme = "binario"
+googleAnalytics = "G-TQF3444063"
+
+[Author]
+ name = "Mick AKA TheGoldenDragon"
+ bio = "Welcome to my irregular blog! I hope you are entertained by my musings."
+ avatar = "img/tdd.png"
+   
+[Params]
+ description = "The most irregular and candid blog on the net! Hope to start the V4V Blogging rev!"
+ copyright = "TheGoldenDragon"
+ columns = 2
+ mainSections = ["posts"]
+ dateFormat = "Jan 02, 2006"
+ colorTheme = "dark-red"
+ mainMenuAlignment = "right"
+
+ [Params.Breadcrumb]
+  enable = true
+  homeText = "TGD"
+
+ [Params.Social]
+  email = "tgdhaku@proton.me"
+
+ [outputs]
+  home = ["HTML", "RSS"]
