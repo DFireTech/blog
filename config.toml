@@ -28,3 +28,6 @@ googleAnalytics = "G-TQF3444063"
 
  [outputs]
   home = ["HTML", "RSS"]
+
+ [Params.Entry]
+  meta = ["date","categories","tags","news","tech"]
