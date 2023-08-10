@@ -14,7 +14,7 @@ googleAnalytics = "G-TQF3444063"
  description = "The most irregular and candid blog on the net! Hope to start the V4V Blogging rev!"
  copyright = "TheGoldenDragon"
  columns = 2
- mainSections = ["posts"]
+ mainSections = ["posts","news","w3flops"]
  dateFormat = "Jan 02, 2006"
  colorTheme = "dark-red"
  mainMenuAlignment = "right"
@@ -29,5 +29,5 @@ googleAnalytics = "G-TQF3444063"
  [outputs]
   home = ["HTML", "RSS"]
 
- [Params.Entry]
-  meta = ["date","categories","tags","news","tech"]
+ 
+ 
