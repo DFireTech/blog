@@ -17,7 +17,21 @@ googleAnalytics = "G-TQF3444063"
  mainSections = ["posts","news","w3flops"]
  dateFormat = "Jan 02, 2006"
  colorTheme = "dark-red"
- mainMenuAlignment = "right"
+ mainMenuAlignment = "left"
+
+[menu]
+[[menu.main]]
+ name = "Home"
+ pageRef = "/"
+ weight = 10
+[[menu.main]]
+ name = "News"
+ pageRef = "/news"
+ weight = 20
+[[menu.main]]
+ name = "V4V Blog Updates"
+ pageRef = "/v4v"
+ weight = 30
 
 [Params.Entry]
  meta = ["date","categories"]
