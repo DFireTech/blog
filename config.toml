@@ -19,15 +19,20 @@ googleAnalytics = "G-TQF3444063"
  colorTheme = "dark-red"
  mainMenuAlignment = "right"
 
- [Params.Breadcrumb]
-  enable = true
-  homeText = "TGD"
+[Params.Entry]
+ meta = ["date","categories"]
+ toc = true
+ tocOpen = true
 
- [Params.Social]
-  email = "tgdhaku@proton.me"
+[Params.Breadcrumb]
+ enable = true
+ homeText = "TGD"
 
- [outputs]
-  home = ["HTML", "RSS"]
+[Params.Social]
+ email = "tgdhaku@proton.me"
+
+[outputs]
+ home = ["HTML", "RSS"]
 
  
  
