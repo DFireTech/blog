@@ -30,14 +30,13 @@ Again, from the bottom of my heart. Thank you.
 If you would like to support my work at all, I have a few options for you:
 
 You can use the button and amount below to send up to 3000 sats to my current personal node. This will help me fund things for the blog and perhaps a podcast later. 
-[[< btcboost >]]
+{{< btcboost >}}
 
 Not into bitcoin? Thats more than okay. The below will let you either subscribe or do a one-time cash donation. 
-[[< kofi >]]
+{{< kofi >}}
 
 [Send me an email!](mailto:tgdhaku@proton.me) This will let me know what you all want to see from me. 
 
 Again, thank you for your value. Thank you for believing in my dream. 
 
-{{ template "_internal/disqus.html" . }}
 
