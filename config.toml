@@ -5,6 +5,7 @@ paginate = "10"
 theme = "binario"
 googleAnalytics = "G-TQF3444063"
 disqusShortname = "thegoldenblogathon"
+
 [Author]
  name = "Mick AKA TheGoldenDragon"
  bio = "Welcome to my irregular blog! I hope you are entertained by my musings."
@@ -30,7 +31,7 @@ disqusShortname = "thegoldenblogathon"
  weight = 20
 [[menu.main]]
  name = "V4V Blog Updates"
- pageRef = "content/v4v"
+ pageRef = "content/posts/v4v"
  weight = 30
 
 [Params.Entry]
