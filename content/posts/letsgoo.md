@@ -39,5 +39,3 @@ Not into bitcoin? Thats more than okay. The below will let you either subscribe 
 
 Again, thank you for your value. Thank you for believing in my dream. 
 
-{{ template "_internal/disqus.html" . }}
-
