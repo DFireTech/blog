@@ -1,0 +1,8 @@
+<header class="header">
+	{{ partial "header_logo.html" . }}
+	{{ partial "header_menu.html" . }}
+
+	{{ "<!-- isso -->" | safeHTML }}
+	<<script data-isso="{{ .Site.BaseURL }}isso/" src="{{ .Site.BaseURL }}isso/js/embed/min.js" data-isso-css="false"></script>
+	{{ "<!-- end isso -->" | safeHTML }}
+</header>

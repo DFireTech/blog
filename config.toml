@@ -1,4 +1,4 @@
-baseurl = "https://goldenblogathon.com"
+baseurl = "https://goldenblogathon.com/"
 title = "Golden Blog-A-Thon"
 languageCode = "en-us"
 paginate = "10"
