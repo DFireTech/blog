@@ -2,7 +2,7 @@ baseurl = "https://goldenblogathon.com/"
 title = "Golden Blog-A-Thon"
 languageCode = "en-us"
 paginate = "10"
-theme = "binario"
+theme = "Binario-master"
 googleAnalytics = "G-TQF3444063"
 #disqusShortname = "thegoldenblogathon"
 
