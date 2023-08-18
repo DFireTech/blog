@@ -93,7 +93,7 @@ This week, we (and by we I mean ThothLoki) blew my mind and sent over a whopping
 
 If you would like to support the blog, you too can send your value over by using the button below. If you are on Habla, you can Zap me and that will go directly to my node and I will send that over to the blog node as well. 
 
-{{ < btcboost > }}
+{{< btcboost >}}
 
 Alternatively, you can send me directly via your wallet if it supports LNURL addresses! You can fund me directly with a send to TGDHaku@boost.goldenblogathon.com
 
