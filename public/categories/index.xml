@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Golden Blog-A-Thon</title>
+    <link>https://goldenblogathon.com/categories/</link>
+    <description>Recent content in Categories on Golden Blog-A-Thon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Aug 2023 19:45:34 -0500</lastBuildDate><atom:link href="https://goldenblogathon.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>updates</title>
+      <link>https://goldenblogathon.com/categories/updates/</link>
+      <pubDate>Thu, 17 Aug 2023 19:45:34 -0500</pubDate>
+      
+      <guid>https://goldenblogathon.com/categories/updates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>intrigue</title>
+      <link>https://goldenblogathon.com/categories/intrigue/</link>
+      <pubDate>Wed, 31 Aug 2022 17:36:57 -0500</pubDate>
+      
+      <guid>https://goldenblogathon.com/categories/intrigue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lyrics</title>
+      <link>https://goldenblogathon.com/categories/lyrics/</link>
+      <pubDate>Wed, 31 Aug 2022 17:36:57 -0500</pubDate>
+      
+      <guid>https://goldenblogathon.com/categories/lyrics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music</title>
+      <link>https://goldenblogathon.com/categories/music/</link>
+      <pubDate>Wed, 31 Aug 2022 17:36:57 -0500</pubDate>
+      
+      <guid>https://goldenblogathon.com/categories/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://goldenblogathon.com/categories/tech/</link>
+      <pubDate>Wed, 31 Aug 2022 17:36:57 -0500</pubDate>
+      
+      <guid>https://goldenblogathon.com/categories/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>goals</title>
+      <link>https://goldenblogathon.com/categories/goals/</link>
+      <pubDate>Sun, 14 Aug 2022 22:18:14 -0500</pubDate>
+      
+      <guid>https://goldenblogathon.com/categories/goals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rants</title>
+      <link>https://goldenblogathon.com/categories/rants/</link>
+      <pubDate>Sat, 13 Aug 2022 20:27:23 -0500</pubDate>
+      
+      <guid>https://goldenblogathon.com/categories/rants/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

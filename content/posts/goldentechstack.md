@@ -2,8 +2,8 @@
 title: "The Golden Tech Stack"
 date: 2023-08-17T19:45:34-05:00
 draft: false
-tags: ["tech","stack","bitcoin","boost]
-categories: [updates]
+tags: ["tech","stack","bitcoin","boost"]
+categories: ["updates"]
 ---
 
 #The Golden Tech Stack

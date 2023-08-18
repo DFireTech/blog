@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lyrics on Golden Blog-A-Thon</title>
+    <link>https://goldenblogathon.com/categories/lyrics/</link>
+    <description>Recent content in lyrics on Golden Blog-A-Thon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Aug 2022 17:36:57 -0500</lastBuildDate><atom:link href="https://goldenblogathon.com/categories/lyrics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lyrics and Me</title>
+      <link>https://goldenblogathon.com/posts/lyricsandme/</link>
+      <pubDate>Wed, 31 Aug 2022 17:36:57 -0500</pubDate>
+      
+      <guid>https://goldenblogathon.com/posts/lyricsandme/</guid>
+      <description>New Week, New Post Well, hello there! Glad to be making you a new post, dear reader! I sincerly hope your week went well and you accomplished or set a goal or two! It has definitely been a week of trials and tribulations in my camp, but, I continue on. I am re-starting my efforts to run my own Jellyfin server again for my house, so, there is that! The setup was much easier than previous efforts, but, we will see if it stays connected or stops a bunch this time.</description>
+    </item>
+    
+  </channel>
+</rss>
