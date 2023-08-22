@@ -5,6 +5,8 @@ paginate = "10"
 theme = "Binario-master"
 #googleAnalytics = "G-TQF3444063"
 #disqusShortname = "thegoldenblogathon"
+show_comments = "true"
+
 
 [Author]
  name = "Mick AKA TheGoldenDragon"
