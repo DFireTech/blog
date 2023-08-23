@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#1b1b1b">
+	<title>It&#39;s All According To Plan (but not mine) | Golden Blog-A-Thon</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	<link rel="stylesheet" href="/css/bundle.css">
+	<link rel="stylesheet" href="/css/themes/dark-red.css">
+	<link rel="icon" href="/icons/16.png" sizes="16x16" type="image/png">
+	<link rel="icon" href="/icons/32.png" sizes="32x32" type="image/png">
+		
+</head>
+<body class="body kind-page">
+	<header class="header">
+	<a class="logo" href="/">Golden Blog-A-Thon</a>
+	
+<nav class="main-nav" role="navigation">
+	<button id="toggle" class="main-nav__btn" aria-label="Menu toggle" aria-expanded="false" tabindex="0">
+		<div class="main-nav__btn-box" tabindex="-1">
+			<svg class="main-nav__icon icon-menu" width="18" height="18" viewBox="0 0 18 18">
+				<path class="icon-menu__burger" d="M18 0v3.6H0V0h18zM0 10.8h18V7.2H0v3.6zM0 18h18v-3.6H0V18z"/>
+				<path class="icon-menu__x" d="M11.55 9L18 15.45 15.45 18 9 11.55 2.55 18 0 15.45 6.45 9 0 2.55 2.55 0 9 6.45 15.45 0 18 2.55 11.55 9z"/>
+			</svg>
+		</div>
+	</button>
+	<ul id="menu" class="main-nav__list">
+			<li class="main-nav__item">
+				<a class="main-nav__link" href="/">
+					
+					<span class="main-nav__text">Home</span>
+					
+				</a>
+			</li>
+			<li class="main-nav__item">
+				<a class="main-nav__link" href="">
+					
+					<span class="main-nav__text">News</span>
+					
+				</a>
+			</li>
+			<li class="main-nav__item">
+				<a class="main-nav__link" href="">
+					
+					<span class="main-nav__text">V4V Blog Updates</span>
+					
+				</a>
+			</li>
+	</ul>
+</nav>
+</header>
+
+	<div class="primary">
+	
+	<main class="main">
+		
+<nav class="breadcrumb block" aria-label="breadcrumb">
+	<ol class="breadcrumb__list">
+		
+		<li class="breadcrumb__item">
+			<a class="breadcrumbs__link" href="/">TGD</a>
+		</li>
+		<li class="breadcrumb__item">
+			<a class="breadcrumbs__link" href="/posts/">Posts</a>
+		</li>
+		<li class="breadcrumbs__item breadcrumb__item--active" aria-current="page">It&#39;s All According To Plan (but not mine)</li>
+	</ol>
+</nav>
+		<div class="single block">
+			<article class="entry">
+	<div class="entry__meta meta mb">
+	<time class="entry__meta-published meta-published" datetime="2023-08-22T19:08:18-05:00">Aug 22, 2023</time>
+	</div>
+				<h1 class="entry__title">It&#39;s All According To Plan (but not mine)</h1>
+<details class="entry__toc toc" open>
+	<summary class="toc__title">Table of Contents</summary>
+	<nav id="TableOfContents">
+  <ul>
+    <li><a href="#there-are-others-like-it-but-this-one-is-mine">There Are Others Like It, But This One Is Mine</a></li>
+    <li><a href="#boooooooost">Boooooooost!</a>
+      <ul>
+        <li><a href="#btcpay">BTCPay</a></li>
+        <li><a href="#to-the-vps">To the VPS</a></li>
+        <li><a href="#to-your-domain-registrar">To your Domain Registrar</a></li>
+        <li><a href="#ssl-and-lets-encrypt">SSL and Lets Encrypt</a></li>
+        <li><a href="#nginx-stuff">Nginx Stuff</a></li>
+        <li><a href="#back-to-btcpay">Back to BTCPay</a></li>
+        <li><a href="#certbot-time">Certbot Time!</a></li>
+        <li><a href="#back-to-the-btcpayserver-conf-file">Back to the btcpayserver conf file</a></li>
+        <li><a href="#test-out-your-new-domain">Test out your new domain!</a></li>
+        <li><a href="#getting-a-pay-button">Getting a pay button</a></li>
+        <li><a href="#shortcodes">Shortcodes!</a></li>
+        <li><a href="#in-the-new-blog-post">In the new blog post</a></li>
+      </ul>
+    </li>
+    <li><a href="#what-does-the-future-hold">What Does the Future Hold</a></li>
+  </ul>
+</nav>
+</details>
+				<div class="entry__content"><p><em>It seems that the tooling was there, I am just not well versed in Google Fu.</em></p>
+<h1 id="the-value-train-is-coming">The Value Train is Coming!</h1>
+<p>Welcome one and all! Value for Value is here in blog land and it was <em>right before our eyes.</em>
+It seems the tooling was there, I am just not well versed in Google-Fu!
+<a href="https://beardedtek.org/get-a-boost-with-alby/">BeardedTek</a> has figured out how to get boosts working (WITH A MODAL SCREEN!!!) with <a href="https://getalby.com">Alby</a>. This is very exciting, as it seems that with this same tooling, I can get the BTCPayServer going with this modal button as well.</p>
+<h2 id="there-are-others-like-it-but-this-one-is-mine">There Are Others Like It, But This One Is Mine</h2>
+<p>Initially, BeardedTek had found <a href="https://app.mash.com/earn">Mash</a> which looks <em>great</em> at first glance. As Andreas Spies says, &ldquo;But, we want more&rdquo;.
+The issue with Mash is that they inject trackers, google ad stuff, etc into your page, which for us more privacy minded folks is a no go. I agree, so, lets look into what BT has done!</p>
+<h2 id="boooooooost">Boooooooost!</h2>
+<blockquote>
+<p>You know that PayPal donation you make to your favorite software project or creator? PayPal takes away nearly 3% + 0.49$! With Lightning payments, it&rsquo;s roughly .04$ per transaction, or $46 more coming in over 100 $1 transactions! -BeardedTek
+You read that correctly. If you make a PayPal dono at a dollar, you can expect about half of that to get routed for fees to them. Seems <em>very bad</em>, right?
+I don&rsquo;t expect any of you to just hop on the Bitcoin/Lightning wagon overnight, but, this is extrodinary stuff. Instant payments, extremely low fees, and with comments, its just <em>Pure Value</em>
+Go read BeardedTek&rsquo;s blog, he did a tremendous job breaking it down for us.</p>
+</blockquote>
+<p>I, however, already have a BTCPay server set up, so, here&rsquo;s how I did it.</p>
+<h3 id="btcpay">BTCPay</h3>
+<p>So, let&rsquo;s get the assumptions/what you will need out of the way <em>first</em>.</p>
+<ul>
+<li>Umbrel Node with synchronized Bitcoin Core node</li>
+<li>SSH Access to said node</li>
+<li>Lightning Node</li>
+<li>BTCPayServer App installed on this node</li>
+<li>Domain name/Networking knowledge that I don&rsquo;t have (I used a Sub.Domain setup)</li>
+<li>VPS Access</li>
+<li>Tailscale set up</li>
+</ul>
+<p>This guide can be found over at <a href="https://orange.surf/public-btcpay-umbrel-tailscale/">Orange.Surf</a></p>
+<ol>
+<li>Run through the setups of each. BTCPay allows you to connect your LN Node or set up a  wallet internally. I use Zeus Wallet to manage my node and Alby wallet.</li>
+<li>Go ahead and SSH into that Umbrel node. I missed the .local name of mine, but, when you install Umbrel, it should give you one at the end of the install. <code>nodename.local</code> or similar.</li>
+<li>Using whatever CLI editor you like (Nano roolz), edit the .env.app_proxy file
+<code>{text editor command} ~/umbrel/app-data-btcpay-server/.env.app_proxy</code></li>
+<li>Go ahead and enter <code>PROXY_TRUST_UPSTREAM=true</code> in there.</li>
+<li>Save and exit. Restart BTCPay <code>~/umbre;/scripts/app restart btcpay-server</code></li>
+</ol>
+<h3 id="to-the-vps">To the VPS</h3>
+<p>After you have that all setup, let&rsquo;s hop over to our VPS, like Linode (The guide suggests LunaNode for this as they accept BTC payments already, so, whatever you are comfy with is cool)</p>
+<p>With <a href="https://linode.com">Linode</a>, you will (after signing up, of course):</p>
+<ol>
+<li>
+<p>Create &gt; Linode
+
+
+
+<div class="center">
+  <img
+    src="/howtos/createLinode.png"
+    alt="First steps"decoding="async"
+  /><figcaption>
+            <p>First steps</p>
+        </figcaption>
+
+</div>
+
+</p>
+</li>
+<li>
+<p>The cheapest option here is a 1GB Nanode that is $5 a month as of writing. The top 4 are here as an example:</p>
+</li>
+</ol>
+
+
+
+<div class="center">
+  <img
+    src="/howtos/sharedCPU.png"decoding="async"
+  />
+
+</div>
+
+
+
+
+
+<div class="center">
+  <img
+    src="/howtos/priceToPerform.png"
+    alt="Top Four on the Board"decoding="async"
+  /><figcaption>
+            <p>Top Four on the Board</p>
+        </figcaption>
+
+</div>
+
+
+<ol start="3">
+<li>I kinda skipped a section here. Just above the type selection you can select your choice of distro and region.
+Select one that makes you comfortable, I go with a Debian or -based distro myself. The region will be specific to you, make one that is close.</li>
+</ol>
+
+
+
+<div class="center">
+  <img
+    src="/howtos/distroRegion.png"decoding="async"
+  />
+
+</div>
+
+
+<ol start="4">
+<li>Make the label and set your root password</li>
+</ol>
+
+
+
+<div class="center">
+  <img
+    src="/howtos/extraStuff.png"decoding="async"
+  />
+
+</div>
+
+
+<ol start="5">
+<li>
+<p>Let it rip! (there would be an epic Tyson GIF here, but, hugo wouldn&rsquo;t serve it. Boooooo)
+Let the box boot up and then lets SSH into it.</p>
+</li>
+<li>
+<p>From here, switch to root user (if not already) <code>sudo su</code> and update
+<code>apt update &amp;&amp; apt upgrade -y</code></p>
+</li>
+<li>
+<p>Install certbot and nginx
+<code>apt install -y certbot nginx</code></p>
+</li>
+<li>
+<p>Lets get Tailscale up and at &rsquo;em
+<code>curl -fsSL https://tailscale.com/install.sh | sh</code></p>
+</li>
+<li>
+<p>After the <code>&quot;Installation complete...&quot;</code> comes up, we will <code>sudo tailscale up</code> and copy the authentication URL into your browser.</p>
+</li>
+</ol>
+<h3 id="to-your-domain-registrar">To your Domain Registrar</h3>
+<p>This is probably the easiest and hardest part if you havent dealt with your registrar before.</p>
+<p>With mine, I had to create a subdomain for this with my domain <strong>THEN</strong> make an A-Record with that to move forward.
+This will all depend on your registrar, but, refer to their documentation if you have never done this before.</p>
+<h3 id="ssl-and-lets-encrypt">SSL and Lets Encrypt</h3>
+<p>Still in your VPS box, lets generate some stuff!
+<code>openssl dhparam -out /etc/ssl/certs/dhparam.pem 4096</code>
+<em>This could take awhile, so, make a coffee or something</em>
+After that is done, lets make the lets encrypt work out for us</p>
+<pre tabindex="0"><code>mkdir -p /var/lib/letsencrypt/.well-known
+chgrp www-data /var/lib/letsencrypt
+chmod g+s /var/lib/letsencrypt
+</code></pre><h3 id="nginx-stuff">Nginx Stuff</h3>
+<p>We will need a map file to forward our stuff, lets do that.
+<code>{text editor} /etc/nginx/conf.d/map.conf</code></p>
+<p>In that map, we will have the following:</p>
+<pre tabindex="0"><code>map #http_x_forwarded_proro $proxy_x_forwarded_proto {
+	default $http_x_forwarded_proto;
+&#39;&#39;	$scheme;
+}
+
+map $http_upgrade $connection_upgrade {
+	default upgrade;
+&#39;&#39;	close;
+}
+</code></pre><p>Save and exit the editor</p>
+<h3 id="back-to-btcpay">Back to BTCPay</h3>
+<p>We will need a config file for nginx to read from for your domain</p>
+<p><code>sudo nano /etc/nginx/sites-available/btcpayserver.conf</code></p>
+<p><em>Warning</em> I will be using the same clue-ins as the article above <em>Warning</em></p>
+<p><em>Warning</em> {} becomes server_name your.domain.com <em>Warning</em></p>
+<pre tabindex="0"><code>server {
+	listen 80;
+	server_name {enter your domain here without the braces};
+
+	# Lets Encrypt verify
+	location ^~ /.wellknow/acme-challenge/ {
+		allow all;
+		root /var/lib/letsencrypt/;
+		default_type &#34;text/plain&#34;;
+		try_files $uri =404;
+	}
+	
+	# Redirect everything else to HTTPS
+	location / {
+		return 301 https://$server_name$request_uri&#39;
+	}
+}
+</code></pre><p>Check that your config is good with <code>sudo nginx -t</code>
+Create a symlink with <code>ln -s /etc/nginx/sites-available/btcpayserver.conf /etc/nginx/sites-enabled/</code>
+Reboot NGINX <code>systemctl restart nginx</code>
+Test again <code>service nginx configtest</code>
+Reload <code>service nginx reload</code></p>
+<h3 id="certbot-time">Certbot Time!</h3>
+<p><em>Warning</em> Replace the admin@mydomain and btcpayserver.mydomain.com with your info <em>Warning</em></p>
+<p><code>certbot certonly --agree-tos --email admin@mydomain.com --webroot -w /var/lib/letsencrypt/ -d btcpayserver.mydomain.com</code></p>
+<p>You <em>should</em> get a Congratulations message here.</p>
+<h3 id="back-to-the-btcpayserver-conf-file">Back to the btcpayserver conf file</h3>
+<p>Lets add more stuff into the file, shall we?</p>
+<pre tabindex="0"><code>server {
+    listen 443 ssl http2;
+
+    # Replace {btcpayserver.my.domain} with your domain
+    server_name {btcpayserver.mydomain.com};
+    ssl_certificate /etc/letsencrypt/live/{btcpayserver.mydomain.com}/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/{btcpayserver.mydomain.com}/privkey.pem;
+ 
+    # Replace {umbrel-tailscale-ip:port} with your details 
+    # i.e. http://100.0.0.0:3003
+    location / {
+      # URL of BTCPay Server 
+      proxy_pass {umbrel-tailscale-ip:port};
+      proxy_set_header Host $http_host;
+      proxy_set_header X-Forwarded-Proto $scheme;
+      proxy_set_header X-Real-IP $remote_addr;
+      proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+      proxy_set_header Upgrade $http_upgrade;
+      proxy_http_version 1.1; # ensure replies through domain
+      # For websockets (used by Ledger hardware wallets)
+      proxy_set_header Upgrade $http_upgrade;
+    }
+
+    ssl_session_timeout 1d;
+    ssl_session_cache shared:MozSSL:10m;  # about 40000 sessions
+    ssl_session_tickets off;
+
+    # Disable SSL and old TLS versions
+    ssl_protocols TLSv1.2 TLSv1.3;
+    
+    # Use Diffie-Hellman (DH) key exchange parameters
+    ssl_dhparam /etc/ssl/certs/dhparam.pem;
+
+    # intermediate configuration
+    ssl_protocols TLSv1.2 TLSv1.3;
+    ssl_ciphers ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384;
+    ssl_prefer_server_ciphers off;
+    
+    # HSTS (ngx_http_headers_module is required) (63072000 seconds)
+    add_header Strict-Transport-Security &#34;max-age=63072000&#34; always;
+}
+</code></pre><p>Save it and exit.
+From here, go ahead and enter root if you aren&rsquo;t <code>sudo su</code> and test the config again as before. <code>service nginx configtest</code>
+If all is well, reload the service and restart nginx</p>
+<pre tabindex="0"><code>service nginx reload
+systemctl restart nginx
+</code></pre><h3 id="test-out-your-new-domain">Test out your new domain!</h3>
+<p>From there, you should be able to access the service over your custom domain! How cool, right?</p>
+<h3 id="getting-a-pay-button">Getting a pay button</h3>
+<p>After setting up your &ldquo;store&rdquo; as they are called here (you can actually run a store from here, its really cool.), lets get that boost button!
+
+
+
+<div class="center">
+  <img
+    src="/howtos/btcPayButton.png"decoding="async"
+  />
+
+</div>
+
+</p>
+<p>You can scroll your pay button page and configure it how you like. First, go ahead and enable the button.</p>
+<p><em>Warning</em> This button should only be used for tips and donations <em>Warning</em></p>
+<p>Then you get all of your options like</p>
+<ul>
+<li>Custom Amount</li>
+<li>Use Modal</li>
+<li>Customize Pay Text</li>
+<li>Image Size</li>
+</ul>
+<p>Etc. After that, we will need to add this into our site. I did mine as a button, so, I added a shortcode into hugo</p>
+<h3 id="shortcodes">Shortcodes!</h3>
+<p><em>back in timbuktu</em></p>
+<p>In your <code>blog</code> directory, lets navigate to <code>/layouts/shortcodes</code>
+Dont have that yet?
+Nav to the layouts directory and <code>mkdir shortcodes</code></p>
+<p>Shortcodes are small snippets of html that we can insert into our site! Neat eh?</p>
+<p>Go ahead and create a new file in the terminal
+<code>{text editor} boost.html</code>
+Save it blank and exit.</p>
+<p>In the BTCPay server config area for your pay button, after you have configured it, you can copy and paste that snippet in using a GUI editor (probably an easier way, but, hey)
+<em>Make sure to save it</em></p>
+<h3 id="in-the-new-blog-post">In the new blog post</h3>
+<p>I have actually used some shortcodes in this blogpost! All my photos are centered thanks to a shortcode.
+<style> .btcpay-form { display: inline-flex; align-items: center; justify-content: center; } .btcpay-form--inline { flex-direction: row; } .btcpay-form--block { flex-direction: column; } .btcpay-form--inline .submit { margin-left: 15px; } .btcpay-form--block select { margin-bottom: 10px; } .btcpay-form .btcpay-custom-container{ text-align: center; }.btcpay-custom { display: flex; align-items: center; justify-content: center; } .btcpay-form .plus-minus { cursor:pointer; font-size:25px; line-height: 25px; background: #DFE0E1; height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto 5px; display: inline-flex; justify-content: center; } .btcpay-form select { -moz-appearance: none; -webkit-appearance: none; appearance: none; color: currentColor; background: transparent; border:1px solid transparent; display: block; padding: 1px; margin-left: auto; margin-right: auto; font-size: 11px; cursor: pointer; } .btcpay-form select:hover { border-color: #ccc; } .btcpay-form option { color: #000; background: rgba(0,0,0,.1); } .btcpay-input-price { -moz-appearance: textfield; border: none; box-shadow: none; text-align: center; font-size: 25px; margin: auto; border-radius: 5px; line-height: 35px; background: #fff; }.btcpay-input-price::-webkit-outer-spin-button, .btcpay-input-price::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; } </style>
+<form method="POST" action="https://boost.goldenblogathon.com/api/v1/invoices" class="btcpay-form btcpay-form--inline">
+  <input type="hidden" name="storeId" value="DTeSNadMCR11utN12fsKwFZEkMSTVP8bxyZLX2tEyQuf" />
+  <input type="hidden" name="browserRedirect" value="https://goldenblogathon.com" />
+  <input type="hidden" name="notifyEmail" value="tgdhaku@proton.me" />
+  <input type="hidden" name="checkoutQueryString" value="lang=en-US" />
+  <div class="btcpay-custom-container">
+    <div class="btcpay-custom">
+      <input class="btcpay-input-price" type="number" name="price" min="1" max="3000" step="1" value="1" data-price="1" style="width:3em;" />
+    </div>
+    <select name="currency">
+      <option value="SATS" selected>SATS</option>
+      <option value="USD">USD</option>
+      <option value="GBP">GBP</option>
+      <option value="EUR">EUR</option>
+      <option value="BTC">BTC</option>
+    </select>
+  </div>
+  <input type="image" class="submit" name="submit" src="https://boost.goldenblogathon.com/img/paybutton/pay.svg" style="width:209px" alt="Pay with BTCPay Server, a Self-Hosted Bitcoin Payment Processor">
+</form>
+<script>
+    function handlePlusMinus(event) {
+        event.preventDefault();
+        const root = event.target.closest('.btcpay-form');
+        const el = root.querySelector('.btcpay-input-price');
+        const step = parseInt(event.target.dataset.step) || 1;
+        const min = parseInt(event.target.dataset.min) || 1;
+        const max = parseInt(event.target.dataset.max);
+        const type = event.target.dataset.type;
+        const price = parseInt(el.value) || min;
+        if (type === '-') {
+            el.value = price - step < min ? min : price - step;
+        } else if (type === '+') {
+            el.value = price + step > max ? max : price + step;
+        }
+    }
+    document.querySelectorAll(".btcpay-form .plus-minus").forEach(function(el) {
+        if (!el.dataset.initialized) {
+            el.addEventListener('click', handlePlusMinus);
+            el.dataset.initialized = true;
+        }
+    });
+    
+    function handlePriceInput(event) {
+        event.preventDefault();
+        const root = event.target.closest('.btcpay-form');
+        const price = parseInt(event.target.dataset.price);
+        if (isNaN(event.target.value)) root.querySelector('.btcpay-input-price').value = price;
+        const min = parseInt(event.target.getAttribute('min')) || 1;
+        const max = parseInt(event.target.getAttribute('max'));
+        if (event.target.value < min) {
+            event.target.value = min;
+        } else if (event.target.value > max) { 
+            event.target.value = max;
+        }
+    }
+    document.querySelectorAll(".btcpay-form .btcpay-input-price").forEach(function(el) {
+        if (!el.dataset.initialized) {
+            el.addEventListener('input', handlePriceInput);
+            el.dataset.initialized = true;
+        }
+    });
+</script>
+is a shortcode as well.
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+<script type='text/javascript'>kofiwidget2.init('Buy me a Monster!','#939e2e','A0A1N2EO6');kofiwidget2.draw();</script>
+
+is also one that I have copied up! This one is from Ko-fi that allows for fiat donos and stuff, but, I think that will be going away for me as well.</p>
+<h4 id="phew-what-a-blog-post">Phew, what a blog post</h4>
+<p>If I have messed anything up, comment it for me and let me know. I will update the post in a jiffy and let you know!</p>
+<p>I have to give it up to BeardedTek on this one. He was able to find a service and get this rockin. He uses Alby for his, so his method is great.
+I also use Alby as a backup, so, I will be adding that to my repertoire real soon!</p>
+<p>Eventually, I would love to combine the ease of use of BTCPay and a comments box in one go. That service is GREAT and they have a satsmine on their hands. You can integrate BTC into your shopify so you can be a BTC Biz! If/When I ever get merch for the blog, I will probably go with that for the setup for sure.</p>
+<h2 id="what-does-the-future-hold">What Does the Future Hold</h2>
+<p>In my efforts to cut back, I am looking to re-host my biz store and create a Hugo site or a Ghost blog site,
+If I can ever learn Python and Django, the site will be built on that instead. For now, I have a feeling that this is where I will go with it.</p>
+<p>For now, be kind to one another. Make sure to spread some positivity where and when you can.</p>
+</div>
+				
+				
+			</article>
+			<style> .btcpay-form { display: inline-flex; align-items: center; justify-content: center; } .btcpay-form--inline { flex-direction: row; } .btcpay-form--block { flex-direction: column; } .btcpay-form--inline .submit { margin-left: 15px; } .btcpay-form--block select { margin-bottom: 10px; } .btcpay-form .btcpay-custom-container{ text-align: center; }.btcpay-custom { display: flex; align-items: center; justify-content: center; } .btcpay-form .plus-minus { cursor:pointer; font-size:25px; line-height: 25px; background: #DFE0E1; height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto 5px; display: inline-flex; justify-content: center; } .btcpay-form select { -moz-appearance: none; -webkit-appearance: none; appearance: none; color: currentColor; background: transparent; border:1px solid transparent; display: block; padding: 1px; margin-left: auto; margin-right: auto; font-size: 11px; cursor: pointer; } .btcpay-form select:hover { border-color: #ccc; } .btcpay-form option { color: #000; background: rgba(0,0,0,.1); } .btcpay-input-price { -moz-appearance: textfield; border: none; box-shadow: none; text-align: center; font-size: 25px; margin: auto; border-radius: 5px; line-height: 35px; background: #fff; }.btcpay-input-price::-webkit-outer-spin-button, .btcpay-input-price::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; } </style>
+			<form method="POST" action="https://boost.goldenblogathon.com/api/v1/invoices" class="btcpay-form btcpay-form--block">
+			  <input type="hidden" name="storeId" value="DTeSNadMCR11utN12fsKwFZEkMSTVP8bxyZLX2tEyQuf" />
+			  <input type="hidden" name="jsonResponse" value="true" />
+			  <input type="hidden" name="browserRedirect" value="https://goldenblogathon.com" />
+			  <div class="btcpay-custom-container">
+			    <div class="btcpay-custom">
+			      <input class="btcpay-input-price" type="number" name="price" min="1" max="200000" step="1" value="1" data-price="1" style="width:3em;" />
+			    </div>
+			    <select name="currency">
+			      <option value="SATS" selected>SATS</option>
+			      <option value="USD">USD</option>
+			      <option value="GBP">GBP</option>
+			      <option value="EUR">EUR</option>
+			      <option value="BTC">BTC</option>
+			    </select>
+			  </div>
+			<button type="submit" class="submit" name="submit" style="min-width:209px;min-height:57px;border-radius:4px;border-style:none;background-color:#0f3b21;cursor:pointer;" title="Pay with BTCPay Server, a Self-Hosted Bitcoin Payment Processor"><span style="color:#fff">BOOST!</span>
+			<img src="https://boost.goldenblogathon.com/img/paybutton/logo.svg" style="height:57px;display:inline-block;padding:5% 0 5% 5px;vertical-align:middle;">
+			</button></form>
+			<script>
+			    if (!window.btcpay) {
+			        var script = document.createElement('script');
+			        script.src = "https://boost.goldenblogathon.com/modal/btcpay.js";
+			        document.getElementsByTagName('head')[0].append(script);
+			    }
+			    function handleFormSubmit(event) {
+			        event.preventDefault();
+			        var xhttp = new XMLHttpRequest();
+			        xhttp.onreadystatechange = function() {
+			            if (this.readyState == 4 && this.status == 200 && this.responseText) {
+			                window.btcpay.appendInvoiceFrame(JSON.parse(this.responseText).invoiceId);
+			            }
+			        };
+			        xhttp.open('POST', event.target.getAttribute('action'), true);
+			        xhttp.send(new FormData(event.target));
+			    }
+			    document.querySelectorAll(".btcpay-form").forEach(function(el) {
+			        if (!el.dataset.initialized) {
+			            el.addEventListener('submit', handleFormSubmit);
+			            el.dataset.initialized = true;
+			        }
+			    });
+    
+			    function handlePlusMinus(event) {
+			        event.preventDefault();
+			        const root = event.target.closest('.btcpay-form');
+			        const el = root.querySelector('.btcpay-input-price');
+			        const step = parseInt(event.target.dataset.step) || 1;
+			        const min = parseInt(event.target.dataset.min) || 1;
+			        const max = parseInt(event.target.dataset.max);
+			        const type = event.target.dataset.type;
+			        const price = parseInt(el.value) || min;
+			        if (type === '-') {
+			            el.value = price - step < min ? min : price - step;
+			        } else if (type === '+') {
+			            el.value = price + step > max ? max : price + step;
+			        }
+			    }
+			    document.querySelectorAll(".btcpay-form .plus-minus").forEach(function(el) {
+			        if (!el.dataset.initialized) {
+			            el.addEventListener('click', handlePlusMinus);
+			            el.dataset.initialized = true;
+			        }
+			    });
+    
+			    function handlePriceInput(event) {
+			        event.preventDefault();
+			        const root = event.target.closest('.btcpay-form');
+			        const price = parseInt(event.target.dataset.price);
+			        if (isNaN(event.target.value)) root.querySelector('.btcpay-input-price').value = price;
+			        const min = parseInt(event.target.getAttribute('min')) || 1;
+			        const max = parseInt(event.target.getAttribute('max'));
+			        if (event.target.value < min) {
+			            event.target.value = min;
+			        } else if (event.target.value > max) { 
+			            event.target.value = max;
+			        }
+			    }
+			    document.querySelectorAll(".btcpay-form .btcpay-input-price").forEach(function(el) {
+			        if (!el.dataset.initialized) {
+			            el.addEventListener('input', handlePriceInput);
+			            el.dataset.initialized = true;
+			        }
+			    });
+			</script>
+
+		</div>
+	</main>
+	
+	
+
+
+
+	
+ <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">HTML </a> is loading comments...</div>
+ <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+ <script type="text/javascript" id="hcb">   if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&opts=16798&num=10&ts=1692673256915");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})();   </script>
+
+
+	</div>
+	<footer class="footer">
+<div class="footer__social social">
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="mailto:tgdhaku@proton.me">
+			<svg class="social__icon" aria-label="Email" role="img" width="32" height="32" viewBox="0 0 512 512"><path d="M299 268l124 106c-4 4-10 7-17 7H106c-7 0-13-3-17-7l124-106 43 38 43-38zm-43 13L89 138c4-4 10-7 17-7h300c7 0 13 3 17 7L256 281zm54-23l121-105v208L310 258zM81 153l121 105L81 361V153z"/></svg>
+		</a>
+</div>
+	<div class="footer__copyright">© 2023 TheGoldenDragon. <span class="footer__copyright-credits">Powered by <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/vimux/binario" rel="nofollow noopener" target="_blank">Binario</a> theme.</span></div>
+</footer>
+<script src="/js/menu.js"></script>
+</body>
+</html>

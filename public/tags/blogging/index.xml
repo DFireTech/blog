@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogging on Golden Blog-A-Thon</title>
+    <link>https://goldenblogathon.com/tags/blogging/</link>
+    <description>Recent content in Blogging on Golden Blog-A-Thon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Aug 2023 19:08:18 -0500</lastBuildDate><atom:link href="https://goldenblogathon.com/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>It&#39;s All According To Plan (but not mine)</title>
+      <link>https://goldenblogathon.com/posts/comingalong/</link>
+      <pubDate>Tue, 22 Aug 2023 19:08:18 -0500</pubDate>
+      
+      <guid>https://goldenblogathon.com/posts/comingalong/</guid>
+      <description>It seems that the tooling was there, I am just not well versed in Google Fu.
+The Value Train is Coming! Welcome one and all! Value for Value is here in blog land and it was right before our eyes. It seems the tooling was there, I am just not well versed in Google-Fu! BeardedTek has figured out how to get boosts working (WITH A MODAL SCREEN!!!) with Alby. This is very exciting, as it seems that with this same tooling, I can get the BTCPayServer going with this modal button as well.</description>
+    </item>
+    
+  </channel>
+</rss>
