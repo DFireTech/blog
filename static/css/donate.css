@@ -1,0 +1,100 @@
+.modal{
+    background-color: rgb(249,249,250);
+    opacity:0;
+    padding: 2em;
+    font-size: 1em;
+    font-family: 'Cabin', sans-serif;
+}
+p{
+    margin: 0.25em;
+    padding: 0em;
+}
+ul{
+    margin: 0.25em;
+    padding-left: 2em;
+    padding-bottom:0.5em;
+}
+.title{
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.content{
+    width: 90%;
+    min-width: 200px;
+    margin: auto;
+}
+
+.header{
+    font-size: 1.1em;
+}
+
+.footer{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.social{
+    flex: 1 1 auto;
+    width: 2em;
+    height: 4em;
+    border-radius: 4em;
+    margin: 2em;
+    background-color:red;
+    opacity: 0.8;
+}
+
+.links{
+    padding: 1em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.link {
+    min-width: 220px;
+    padding:1em;
+}
+.image_button{
+    min-height: 3em;
+    min-width: 215;
+    max-width: 250px;
+    width: 100%;
+    padding: 2em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f0957;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;
+    font-size: 1.4em;
+}
+.image_button img{
+    margin-right: 10px;
+    height: 2em;
+    width: auto;
+}
+.image_button span{
+    white-space: nowrap;
+}
+.image_button:hover{
+    opacity: 0.9;
+}
+
+.image_button_footer{
+    display: inline-block;
+    font-size: 1em;
+    color:lightslategrey;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width : 500px) {
+    .title {font-size:1.6em;}
+    .header{font-size:0.8em;}
+    .modal{padding:0.5em;padding-top:2em;}
+}
