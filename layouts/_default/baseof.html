@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{{ .Site.LanguageCode | default "en-us" }}">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="{{ .Site.Params.Manifest.themeColor | default "#1b1b1b" }}">
+	<title>{{ block "title" . }}{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}">
+	{{- if .Site.Params.opengraph }}
+		{{ template "_internal/opengraph.html" . }}
+	{{- end }}
+	{{- if .Site.Params.schema }}
+		{{ template "_internal/schema.html" . }}
+	{{- end }}
+	{{- if .Site.Params.twitter_cards }}
+		{{ template "_internal/twitter_cards.html" . }}
+	{{- end }}
+	{{- $cssReboot := resources.Get "css/reboot.css" }}
+	{{- $cssMain := resources.Get "css/main.css" }}
+	{{- $cssPrint := resources.Get "css/print.css" }}
+	{{- $style := slice $cssReboot $cssMain $cssPrint | resources.Concat "css/bundle.css" }}
+	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+	{{- range .Site.Params.customCSS }}
+	<link rel="stylesheet" href="{{ . | relURL }}">
+	{{- end }}
+	{{- with .Site.Params.colorTheme }}
+	<link rel="stylesheet" href="{{ (printf "css/themes/%s.css" .) | relURL }}">
+	{{- end }}
+	<link rel="icon" href="{{ "icons/16.png" | relURL }}" sizes="16x16" type="image/png">
+	<link rel="icon" href="{{ "icons/32.png" | relURL }}" sizes="32x32" type="image/png">
+	{{- with .OutputFormats.Get "rss" }}
+	{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
+	{{- end }}
+	{{- with ((.Site.GetPage "home").OutputFormats.Get "manifest") }}
+	<link rel="manifest" href="{{ "manifest.json" | relURL }}">
+	{{- end }}
+	{{- if not .Site.IsServer }}
+		{{- if hasPrefix .Site.GoogleAnalytics "G-" }}
+		{{ template "_internal/google_analytics.html" . }}
+		{{- else }}
+		{{ template "_internal/google_analytics_async.html" . }}
+		{{- end }}
+	{{- end }}
+	<!-- BeardedTek Boost Modal CSS -->
+	<link rel="stylesheet" href="/css/boost.css">
+	<link rel="stylesheet" href="/css/donate.css">
+	<!-- End BeardedTek Boost Modal CSS-->
+</head>
+<body class="body kind-{{ .Kind }}">
+	{{ partial "header" . }}
+	<div class="primary">
+		<!-- BeardedTek Boost Modal & Button -->
+	<main class="-modal">
+		<div class="floatingButton">
+		  <a class="BOOST" href="/donate/donate.html" data-modal="" id="modal_0_lnk" aria-controls="modal_0" aria-role="button" tabindex="0">DONATE</a>
+		</div>
+	  </main>
+	<svg style="display:none" viewBox="Infinity Infinity -Infinity -Infinity">   <defs><symbol viewBox="0 0 38 38" id="icon-cross"><path d="M19 17.6l5.3-5.4 1.4 1.4-5.3 5.4 5.3 5.3-1.4 1.4-5.3-5.3-5.3 5.3-1.4-1.4 5.2-5.3-5.2-5.3 1.4-1.4 5.3 5.3z"></path></symbol><symbol viewBox="0 0 150 130" id="icon-loading"><title>Loading</title><path d="M81.5 33l30.8-32.8c0.3-0.3 0.5-0.2 0.3 0.3 -1.8 5.2-1.7 15.3-1.7 15.3 -0.1 6.8-0.8 11.7-6.6 17.9L74.8 65.1c-0.2 0.2-0.4 0-0.3-0.2 1.5-5.1 1.2-15.1 1.2-15.1C75.4 45.6 76.4 38.4 81.5 33M105.9 54.8l43.8 10.3c0.4 0.1 0.4 0.4-0.2 0.4 -5.4 1-14.1 6.1-14.1 6.1 -6 3.3-10.5 5.2-18.8 3.2l-41.9-9.9c-0.3-0.1-0.2-0.3 0-0.4 5.2-1.3 13.7-6.5 13.7-6.5C92 55.9 98.7 53.1 105.9 54.8M99.4 86.3l13 43.2c0.1 0.4-0.1 0.5-0.4 0.1 -3.6-4.2-12.4-9.2-12.4-9.2 -5.8-3.5-9.7-6.5-12.2-14.6L75 64.5c-0.1-0.3 0.2-0.4 0.3-0.2 3.7 3.9 12.5 8.6 12.5 8.6C91.5 74.8 97.3 79.2 99.4 86.3M68.7 97l-30.8 32.8c-0.3 0.3-0.5 0.2-0.3-0.3 1.8-5.2 1.7-15.3 1.7-15.3 0.1-6.8 0.8-11.7 6.6-17.9l29.5-31.4c0.2-0.2 0.4 0 0.3 0.2 -1.5 5.1-1.2 15.1-1.2 15.1C74.8 84.4 73.8 91.6 68.7 97M44.1 75.8L0.3 65.4C-0.1 65.3-0.1 65 0.5 65c5.4-1 14.1-6.1 14.1-6.1 6-3.3 10.5-5.2 18.8-3.2l41.9 9.9c0.3 0.1 0.2 0.3 0 0.4 -5.2 1.3-13.7 6.5-13.7 6.5C58.1 74.7 51.3 77.5 44.1 75.8M50.2 43.8l-13-43.2c-0.1-0.4 0.1-0.5 0.4-0.1C41.2 4.7 50 9.7 50 9.7c5.8 3.5 9.7 6.5 12.2 14.6l12.4 41.3c0.1 0.3-0.2 0.4-0.3 0.2 -3.7-3.9-12.5-8.6-12.5-8.6C58.1 55.4 52.4 50.9 50.2 43.8"></path></symbol></defs></svg>
+    <!-- End BeardedTek Boost Modal & Button -->
+	{{ block "main" . }}
+		{{- if or .Title .Content }}
+		<div class="page block">
+			{{ with .Title }}<h1 class="page__title">{{ . }}</h1>{{ end }}
+			{{ with .Content }}<div class="page__content{{ if not $.Title }} page__content--notitle{{ end }}">{{ . }}</div>{{ end }}
+		</div>
+		{{ end }}
+	{{ end }}
+	</div>
+	{{ partial "footer" . }}
+{{- with .Site.Menus.main }}
+<script src="{{ "js/menu.js" | relURL }}"></script>
+{{- end }}
+{{- partial "mathjax.html" . -}}
+{{- range .Site.Params.customJS }}
+<script src="{{ . | relURL }}"></script>
+{{- end }}
+
+<!-- BeardedTek Modal & Button Javascript -->
+<script src="/js/boost.js"></script>
+<!-- End BeardedTek Modal & Button Javascript -->
+
+</body>
+</html>
