@@ -96,7 +96,13 @@
   </ul>
 
   <ul>
-    <li><a href="#minios-fast-simple-reliable">miniOS. Fast. Simple. Reliable.</a></li>
+    <li><a href="#minios-fast-simple-reliable">miniOS. Fast. Simple. Reliable.</a>
+      <ul>
+        <li><a href="#the-documentation">The Documentation</a></li>
+        <li><a href="#portability">Portability</a></li>
+        <li><a href="#air-gap">Air Gap</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 </details>
@@ -107,10 +113,10 @@ Before we begin, I have some corrections to make to a previous article, <a href=
 <h2 id="corrections-a">Corrections A</h2>
 <p>Initially, I stated that (some liberties here):</p>
 <blockquote>
-<p>I will be running a start9 node for the blog
-Well, this was great in theory as its all FOSS. <em>For my usecase though, having to hack in a VPN to access from anywhere that isnt TOR is a non-starter.</em>
-Thus, I now have a second umbrel node that I now need to redirect the boosts to! This is still on the same ol&rsquo; Kamrui mini PC that I got it for though.</p>
+<p>I will be running a start9 node for the blog</p>
 </blockquote>
+<p>Well, this was great in theory as its all FOSS. <em>For my usecase though, having to hack in a VPN to access from anywhere that isnt TOR is a non-starter.</em>
+Thus, I now have a second umbrel node that I now need to redirect the boosts to! This is still on the same ol&rsquo; Kamrui mini PC that I got it for though.</p>
 <h2 id="some-shout-outs">Some shout-outs!</h2>
 <p>Guys, we really should send some sats over to <a href="https://beardedtek.org">BeardedTek</a>
 He has reached out on X (i am off the mainstream platforms at this time) and got some good info from Alby. <a href="https://beardedtek.org/boosts-for-blogs">His article is here</a>. He highlights the best points in the V4V model <em>just so greatly</em> and is a call-to-action on what we are after!</p>
@@ -163,6 +169,86 @@ I take a dive into <a href="https://distrowatch.com">DistroWatch</a> and find on
 </div>
 
 </p>
+<p>I mean, wow. Clean, <strong>blazing</strong> fast, and all under 400MB for just a minimal iso. They have larger ones and ones you can build yourself as well.</p>
+<p>Here is what they offer:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Size</th>
+<th>Arch</th>
+<th>Desc</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Flux</td>
+<td>355MB</td>
+<td>32 and 64</td>
+<td>Visually similar to Slax, most compact</td>
+</tr>
+<tr>
+<td>Minimum</td>
+<td>375MB</td>
+<td>32 and 64</td>
+<td>Based on Debian 11, compressed w xz. Minimal software</td>
+</tr>
+<tr>
+<td>Standard</td>
+<td>560MB</td>
+<td>32 and 64</td>
+<td>Most balancd;zstd compression</td>
+</tr>
+<tr>
+<td>Maximum</td>
+<td>695MB</td>
+<td>64</td>
+<td>Complete system, swiss army knife</td>
+</tr>
+<tr>
+<td>Ultra</td>
+<td>1370MB</td>
+<td>64</td>
+<td>AiO system w extras</td>
+</tr>
+<tr>
+<td>Puzzle</td>
+<td>530+</td>
+<td>64 base, 64 full</td>
+<td>Like standard, but, can contruct system modularly</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Actual size may vary slightly according to their site</li>
+</ul>
+<p><em>Editing TGD here. I hope this table looks nice.</em></p>
+<p>I haven&rsquo;t even talked <a href="https://minios.dev/docs/">docs</a> yet.</p>
+<h3 id="the-documentation">The Documentation</h3>
+<p>Tl;Dr <em>They have fantastic documentation</em></p>
+<p>The docs page is basically just a minimalist wiki that goes over whatever you need.
+Anything from &ldquo;How do I actually make this portable?&rdquo; to &ldquo;What modularity do you speak of?&rdquo; is on here.</p>
+<h3 id="portability">Portability</h3>
+<p>To make it a super portable (fits on a flash drive) system, its very easy.</p>
+<ul>
+<li>Download whatever ISO you wish and open that file. I used XArchiver, which came on my Debian 12 system.</li>
+<li>Format a flash drive to either ext4 or FAT32 (MBR)</li>
+<li>Inside of the .ISO is a folder <code>minios</code>. Take that folder and copy it to the root of that drive</li>
+<li>In the <code>minios</code> folder, find <code>minios.conf</code> and open it up. Change the settings in here to meet your demands. SSH is enabled by default for other init systems.</li>
+<li>Finally, find <code>boot</code> inside of <code>minios</code>. Open a terminal here and run <code>bootinst.sh</code> or <code>bootinst.bat</code>. This will make the drive bootable</li>
+<li>Reboot and boot from the drive you just used and voila, you now have miniOS on a thumb drive!</li>
+</ul>
+<p>If you select <code>Persistent</code> everything should go like any other linux instance you run.</p>
+<h3 id="air-gap">Air Gap</h3>
+<p>The way I can see this being cool is that now you have your data on the go. Is this near as private as Tails? Probably not. With some technical knowledge, however, I can see this being really cool. Get Tailscale set up with this or whatever VPN you prefer and you have an OTG disk to meet your demands. I considered possibly using this as a software BTC cold storage, but, that needs some researching before I go and put the coin on the drive.</p>
+<p>Speaking of the &lsquo;Coin&hellip;</p>
+<h1 id="site-updates">Site Updates</h1>
+<p>You now see the &ldquo;Donate&rdquo; button on the page! BeardedTek was able to get a modal up and running! In <a href="https://beardedtek.org/get-a-boost-with-alby/">this post</a> he goes over the modal in Ghost and this can be placed into Hugo in the site where you want it to appear. <em>However</em> this didnt allow the scrolling. I am very grateful for this!</p>
+<h1 id="impressions">Impressions</h1>
+<p>miniOS looks great and is fast. I suggest you try it out if you are into persistent and OTG desktops that you can impress your peers with.
+You can find them at <a href="https://minios.dev">https://minios.dev/</a></p>
+<p>That&rsquo;s it for this edition! Have any comments? Boost em in or just leave a comment! Share this about if you found it valuable to you!</p>
+<p>Have a great day, hope to chat soon.</p>
 </div>
 				
 			</article>

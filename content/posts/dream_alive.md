@@ -78,7 +78,7 @@ I mean, wow. Clean, **blazing** fast, and all under 400MB for just a minimal iso
 Here is what they offer:
 
 |Name|Size|Arch|Desc|
-----
+|----|---|------|------|
 |Flux|355MB|32 and 64|Visually similar to Slax, most compact|
 |Minimum|375MB|32 and 64|Based on Debian 11, compressed w xz. Minimal software|
 |Standard|560MB|32 and 64|Most balancd;zstd compression|
