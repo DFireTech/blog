@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>goals on Golden Blog-A-Thon</title>
+    <link>https://goldenblogathon.com/categories/goals/</link>
+    <description>Recent content in goals on Golden Blog-A-Thon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Aug 2022 22:18:14 -0500</lastBuildDate><atom:link href="https://goldenblogathon.com/categories/goals/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Warm Evenings, Warmer Posts</title>
+      <link>https://goldenblogathon.com/posts/14aug22/</link>
+      <pubDate>Sun, 14 Aug 2022 22:18:14 -0500</pubDate>
+      
+      <guid>https://goldenblogathon.com/posts/14aug22/</guid>
+      <description>Welcome Back I sincerly hope you enjoyed reading my first post! Since my first post, I have learned a couple things:
+I had not secured my site on Netlify (oops) Securing it was very easy after I got it going Git was much easier than I originally thought These all seem like very integral lessons to me! I think I may have had a breakthrough in what I would consider for my ultimate goal: SysAdmin</description>
+    </item>
+    
+  </channel>
+</rss>

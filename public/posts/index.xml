@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Golden Blog-A-Thon</title>
+    <title>Golden Blog-A-Thon</title>
     <link>https://goldenblogathon.com/posts/</link>
-    <description>Recent content in Posts on Golden Blog-A-Thon</description>
+    <description>Recent content on Golden Blog-A-Thon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Aug 2023 19:08:18 -0500</lastBuildDate><atom:link href="https://goldenblogathon.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Aug 2023 09:50:10 -0500</lastBuildDate><atom:link href="https://goldenblogathon.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Dream, An Awakening</title>
+      <link>https://goldenblogathon.com/posts/dream_alive/</link>
+      <pubDate>Sat, 26 Aug 2023 09:50:10 -0500</pubDate>
+      
+      <guid>https://goldenblogathon.com/posts/dream_alive/</guid>
+      <description>In a world where support is everything, value for value is there to help
+Gruezi, one and all! Welcome back! Not much in the way of sats support this week, which is a-okay to me, just being transparent! Before we begin, I have some corrections to make to a previous article, The Golden Tech Stack:
+Corrections A Initially, I stated that (some liberties here):
+I will be running a start9 node for the blog Well, this was great in theory as its all FOSS.</description>
+    </item>
+    
     <item>
       <title>It&#39;s All According To Plan (but not mine)</title>
       <link>https://goldenblogathon.com/posts/comingalong/</link>

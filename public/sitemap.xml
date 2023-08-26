@@ -3,8 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://goldenblogathon.com/</loc>
-    <lastmod>2023-08-22T19:08:18-05:00</lastmod>
+    <lastmod>2023-08-26T09:50:10-05:00</lastmod>
     <priority>0</priority>
+  </url><url>
+    <loc>https://goldenblogathon.com/posts/</loc>
+    <lastmod>2023-08-26T09:50:10-05:00</lastmod>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://goldenblogathon.com/posts/dream_alive/</loc>
+    <lastmod>2023-08-26T09:50:10-05:00</lastmod>
   </url><url>
     <loc>https://goldenblogathon.com/tags/bitcoin/</loc>
     <lastmod>2023-08-22T19:08:18-05:00</lastmod>
@@ -16,9 +23,6 @@
     <lastmod>2023-08-22T19:08:18-05:00</lastmod>
   </url><url>
     <loc>https://goldenblogathon.com/tags/ln/</loc>
-    <lastmod>2023-08-22T19:08:18-05:00</lastmod>
-  </url><url>
-    <loc>https://goldenblogathon.com/posts/</loc>
     <lastmod>2023-08-22T19:08:18-05:00</lastmod>
   </url><url>
     <loc>https://goldenblogathon.com/tags/</loc>
@@ -48,12 +52,6 @@
     <loc>https://goldenblogathon.com/posts/v4v/letsgoo/</loc>
     <lastmod>2023-08-10T19:29:55-05:00</lastmod>
   </url><url>
-    <loc>https://goldenblogathon.com/v4v/letsgoo/</loc>
-    <lastmod>2023-08-10T19:29:55-05:00</lastmod>
-  </url><url>
-    <loc>https://goldenblogathon.com/v4v/</loc>
-    <lastmod>2023-08-10T19:29:55-05:00</lastmod>
-  </url><url>
     <loc>https://goldenblogathon.com/posts/textualboardmeeting/</loc>
     <lastmod>2023-08-06T17:26:09-05:00</lastmod>
   </url><url>
@@ -74,9 +72,6 @@
   </url><url>
     <loc>https://goldenblogathon.com/posts/ponderpotent/</loc>
     <lastmod>2023-04-11T21:10:07-05:00</lastmod>
-  </url><url>
-    <loc>https://goldenblogathon.com/beenawhile/</loc>
-    <lastmod>2023-04-06T22:12:48-05:00</lastmod>
   </url><url>
     <loc>https://goldenblogathon.com/categories/intrigue/</loc>
     <lastmod>2022-08-31T17:36:57-05:00</lastmod>
@@ -158,6 +153,12 @@
   </url><url>
     <loc>https://goldenblogathon.com/categories/rants/</loc>
     <lastmod>2022-08-13T20:27:23-05:00</lastmod>
+  </url><url>
+    <loc>https://goldenblogathon.com/news/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://goldenblogathon.com/v4v/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>https://goldenblogathon.com/archives/</loc>
   </url>

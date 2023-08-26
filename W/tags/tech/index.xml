@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tech on Golden Blog-A-Thon</title>
+    <link>https://goldenblogathon.com/tags/tech/</link>
+    <description>Recent content in tech on Golden Blog-A-Thon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Aug 2023 19:45:34 -0500</lastBuildDate><atom:link href="https://goldenblogathon.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Golden Tech Stack</title>
+      <link>https://goldenblogathon.com/posts/goldentechstack/</link>
+      <pubDate>Thu, 17 Aug 2023 19:45:34 -0500</pubDate>
+      
+      <guid>https://goldenblogathon.com/posts/goldentechstack/</guid>
+      <description>#The Golden Tech Stack
+Welcome Time is lovely, isn&amp;rsquo;t it? It just flows on like a river. Anyway, some stuff has changed and an update is due! I hope you are well and excited for another edition of my blog.
+This edition of the blog, I asked a simple question to my bitcoiner pals over at the Jupiter Broadcasting Matrix channel: &amp;ldquo;What would you like to see me write about or have my opinion on?</description>
+    </item>
+    
+    <item>
+      <title>Lyrics and Me</title>
+      <link>https://goldenblogathon.com/posts/lyricsandme/</link>
+      <pubDate>Wed, 31 Aug 2022 17:36:57 -0500</pubDate>
+      
+      <guid>https://goldenblogathon.com/posts/lyricsandme/</guid>
+      <description>New Week, New Post Well, hello there! Glad to be making you a new post, dear reader! I sincerly hope your week went well and you accomplished or set a goal or two! It has definitely been a week of trials and tribulations in my camp, but, I continue on. I am re-starting my efforts to run my own Jellyfin server again for my house, so, there is that! The setup was much easier than previous efforts, but, we will see if it stays connected or stops a bunch this time.</description>
+    </item>
+    
+    <item>
+      <title>My Thoughts on Linux</title>
+      <link>https://goldenblogathon.com/posts/mythoughtsonlinux/</link>
+      <pubDate>Mon, 22 Aug 2022 20:35:20 -0500</pubDate>
+      
+      <guid>https://goldenblogathon.com/posts/mythoughtsonlinux/</guid>
+      <description>It&amp;rsquo;s Time Ah, yes. A new week and a new blog has yet to be written. Heck, I still have some cars to make for next weeks Race. But, before that, I have some thoughts and opinions!
+But, the Race Wrap-Up! Fine, fine. Tl;Dr, I took second and third in the race. We did King of the Hill style with eight cars and I got four in, three after the challenge was issued.</description>
+    </item>
+    
+  </channel>
+</rss>
