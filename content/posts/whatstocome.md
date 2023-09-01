@@ -1,7 +1,7 @@
 ---
 title: "A Sign of Things to Come"
 date: 2023-09-01T21:34:03Z
-draft: true
+draft: false
 ---
 
 # Good Morrow Tuxians
