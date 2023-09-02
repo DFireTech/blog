@@ -25,7 +25,7 @@ I think I would baseline with EndeavourOS or Mainline Arch, or Debian 12.1.
 ## For Now, though
 
 Work has commenced on a great project that we need help on!
-By we, I mean my brother-in-FOSS, BeardedTek! He is building [blogindex.xyz](blogindex.xyz) and if you are interested, hit him up on Matrix! He had made a BIXYZ room for us on Matrix and we could use some help.
+By we, I mean my brother-in-FOSS, BeardedTek! He is building [blogindex.xyz](https://blogindex.xyz) and if you are interested, hit him up on Matrix! He had made a BIXYZ room for us on Matrix and we could use some help.
 I am beyond impressed and infinitely grateful for this and to be a speaker and call to action guy. 
 
 # However
