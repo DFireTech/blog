@@ -21,19 +21,6 @@ show_comments = "true"
  colorTheme = "dark-red"
  mainMenuAlignment = "left"
 
-[menu]
-[[menu.main]]
- name = "Home"
- pageRef = "/"
- weight = 10
-[[menu.main]]
- name = "News"
- pageRef = "/content/news"
- weight = 20
-[[menu.main]]
- name = "V4V Blog Updates"
- pageRef = "/content/posts/v4v"
- weight = 30
 
 [Params.Entry]
  meta = ["date","categories"]
