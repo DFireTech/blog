@@ -17,7 +17,6 @@ show_comments = "true"
  description = "The most irregular and candid blog on the net! Hope to start the V4V Blogging rev!"
  copyright = "TheGoldenDragon"
  columns = 2
- mainSections = ["posts","news","w3flops"]
  dateFormat = "Jan 02, 2006"
  colorTheme = "dark-red"
  mainMenuAlignment = "left"
