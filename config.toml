@@ -29,11 +29,11 @@ show_comments = "true"
  weight = 10
 [[menu.main]]
  name = "News"
- pageRef = "content/news"
+ pageRef = "/content/news"
  weight = 20
 [[menu.main]]
  name = "V4V Blog Updates"
- pageRef = "content/posts/v4v"
+ pageRef = "/content/posts/v4v"
  weight = 30
 
 [Params.Entry]
