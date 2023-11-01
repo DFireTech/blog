@@ -1,0 +1,41 @@
+baseurl = "https://goldenblogathon.com/"
+title = "Golden Blog-A-Thon"
+languageCode = "en-us"
+paginate = "10"
+theme = "hugo-ficurina"
+#googleAnalytics = "G-TQF3444063"
+#disqusShortname = "thegoldenblogathon"
+show_comments = "true"
+
+
+[Author]
+ name = "Mick AKA TheGoldenDragon"
+ bio = "Welcome to my irregular blog! I hope you are entertained by my musings."
+ avatar = "img/tdd.png"
+   
+[Params]
+ description = "The most irregular and candid blog on the net! Hope to start the V4V Blogging rev!"
+ copyright = "TheGoldenDragon"
+ columns = 2
+ dateFormat = "Jan 02, 2006"
+ colorTheme = "dark-red"
+ mainMenuAlignment = "left"
+
+
+[Params.Entry]
+ meta = ["date","categories"]
+ toc = true
+ tocOpen = true
+
+[Params.Breadcrumb]
+ enable = true
+ homeText = "TGD"
+
+[Params.Social]
+ email = "tgdhaku@proton.me"
+
+[outputs]
+ home = ["HTML", "RSS"]
+
+ 
+ 

@@ -1,0 +1,91 @@
+baseURL = "https://goldenblogathon.com/"
+title = "Golden Blog-A-Thon"
+languageCode = "en"
+defaultContentLanguage = "en"
+paginate = 6
+theme = "hugo-ficurinia"
+summaryLength = 30
+copyright = "TheGoldenDragon"
+
+[Params]
+ author = "Mick, aka TheGoldenDragon"
+ description = "The most irregular and candid blog on the net! Hope to start the V4V Blogging rev!"
+ showcaseDir = "showcase"
+ showSinglePageAsHome = false
+ showPostsLink = false
+ homeSinglePage = "/home"
+ logo = "img/tdd.png"
+ favicon = "img/tdd.png"
+ logoRightofTitle = false
+ showTags = true
+ showRss = true
+ imageInArticlePreview = false
+ fitImageInArticlePreview = false
+ articleSummary = true
+ fontFamily = "JetBrains Mono"
+ titleFontFamily = "JetBrains Mono"
+ monospaceFamily = "JetBrains Mono"
+ titleFontMultiplier = 1.0
+ mainFontSizeMultiplier = 1.0
+ monoFontSizeMultiplier = 1.0
+ contentWidth = "1000px"
+ paperCards = true
+ buttonTags = true
+ tagsInArticlePreview = true
+ gridView = true
+ bigArticleTitle = false
+ navtype = "circles"
+ enableShadow = false
+ menuStyle = "standard"
+ inputStyle = "standard"
+ enableSearch = true
+ searchbarEverywhere = true
+ searchMenuLink = false
+ mobileHamburgerMenu = true
+ enableFeatured = false
+ underlineTitleLinks = false
+ enableShareOnFediverse = true
+ infiniteScrolling = true
+ relatedArticlesNum = 0
+ forceRedirect = true
+ 
+[menu]
+
+ [[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about"
+  weight = 10
+  
+ [[menu.main]]
+  identifier = "news"
+  name = "News"
+  url = "/news/"
+  weight = 20
+  
+ [[menu.main]]
+  identifier = "v4v"
+  name = "Value 4 Value"
+  url = "/v4v/"
+  weight = 30
+  
+ [[menu.main]]
+  identifier = "posts"
+  name = "Everyday Posts"
+  url = "/posts/"
+  weight = 40
+  
+ [[menu.main]]
+  identifier = "lfnw"
+  name = "Linux Fest Northwest"
+  url = "/lfnw/"
+  weight = 50
+
+[markup]
+ [markup.tableOfContents]
+  endLevel = 5
+  ordered = true
+  startLevel = 1
+ 
+[outputs]
+ home = ["HTML", "JSON", "RSS"]
