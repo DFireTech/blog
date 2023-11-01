@@ -1,0 +1,114 @@
+baseURL = "https://goldenblogathon.com"
+theme = "risotto"
+title = "The Golden Blog-a-Thon"
+author = "Mick K, aka TheGoldenDragon"
+copyright = "© Mick K, TGD"
+paginate = 3
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors = ["error-remote-getjson"]
+
+# Automatically add content sections to main menu
+#sectionPagesMenu = "main"
+
+[params]
+noindex = false
+
+[params.theme]
+palette = "solarized-dark"
+
+# Sidebar: about/bio
+[params.about]
+title = "Mick K, TheGoldenDragon"
+description = "Golden Mascot for Linux Unplugged. Does your podcast have a mascot?"
+logo = "/img/tdd.png"
+
+# Sidebar: social links
+# Available icon sets:
+# * FontAwesome 6 <https://fontawesome.com/> ('fa-brands', 'fa-normal', or 'fa-solid' for brands)
+# * Academicons <https://jpswalsh.github.io/academicons> ('ai ai-')
+
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/DFireTech"
+
+[[params.socialLinks]]
+icon = "fa-solid fa-envelope"
+title = "Email"
+url = "mailto:goldendragonhaku@gmail.com"
+
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+    
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    url = "/posts/"
+    weight = 20
+    
+  [[menu.main]]
+    identifier = "v4v"
+    name = "Value 4 Value"
+    url = "/v4v/"
+    weight = 30
+    
+  [[menu.main]]
+    identifier = "lfnw"
+    name = "Linux Fest Northwest"
+    url = "/lfnw/"
+    weight = 40
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+# For hugo >= 0.60.0, enable inline HTML
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup]
+
+  # Table of contents
+  # Add toc = true to content front matter to enable
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel   = 10
+    ordered    = true
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
