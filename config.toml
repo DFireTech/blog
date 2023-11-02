@@ -47,7 +47,7 @@ url = "mailto:goldendragonhaku@gmail.com"
   [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "/about/"
+    url = "/about"
     weight = 10
     
   [[menu.main]]
@@ -67,6 +67,12 @@ url = "mailto:goldendragonhaku@gmail.com"
     name = "Linux Fest Northwest"
     url = "/lfnw/"
     weight = 40
+    
+  [[menu.main]]
+   identifier = "donations"
+   name = "Donations"
+   url = "/donations"
+   weight = 20
 
 [taxonomies]
 category = "categories"
