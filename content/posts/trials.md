@@ -6,7 +6,7 @@ tags: ["atlas","weight","world"]
 categories: ["updates"]
 ---
 
-#*Life*#
+# *Life* #
 
 Life is difficult. Now, I dont want this to be a, *woe as me, im here complaining again* thing. 
 I'm learning as I go and need to learn to handle hard times - even if they seem to come one after another.
@@ -19,7 +19,7 @@ This wouldnt have been a *huge*, huge thing, but the worry quickly turned to fru
 
 Instead - lets look at what has been a positive force lately in my life and what is to come. 
 
-##*A Positive Outlook Ahead*##
+## *A Positive Outlook Ahead* ##
 
 This morning, I have taken the first couple steps to redo my education. I blame [TeamLinux01](https://daniel.melzaks.com) for inspiring me to want to do better
 A few moons ago, I went to the now defunct ITT Tech and never received help in getting into the tech field. My current aspirations are to be a SysAdmin and possibly a minor in DevOps or coding.
