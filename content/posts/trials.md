@@ -20,7 +20,7 @@ This wouldnt have been a *huge*, huge thing, but the worry quickly turned to fru
 Instead - lets look at what has been a positive force lately in my life and what is to come.<br> 
 
 ## *A Positive Outlook Ahead* ##
-<br>
+
 This morning, I have taken the first couple steps to redo my education. I blame [TeamLinux01](https://daniel.melzaks.com) for inspiring me to want to do better
 A few moons ago, I went to the now defunct ITT Tech and never received help in getting into the tech field. My current aspirations are to be a SysAdmin and possibly a minor in DevOps or coding.
 With the lack of help from my former college, I had to use Borrower's Defense to get help with the insurmountable debt I had acclimated thanks to the loans they had me take out. 
@@ -31,14 +31,14 @@ I also have been fairly successful in getting my infra back up and running! I ne
 I will be getting my resume hosted as a Hugo blog (I kind of have this, I forget where it is hosted at...) but this time it will be more professional looking.<br>
 
 ## Speaking of ##
-<br>
+
 I am in the market for new work. I havent lost my current gig, but, the burn out is real and I would love to broaden my scope.<br>
 
 I self host, learn quick, and have a deep burning passion for my work - almost to a fault. [Send me an email](mailto:goldendragonhaku@gmail.com) if you would like a copy of my resume!
 South Central KS located, remote preferred, and I learn VERY quickly.<br>
 
 ## Projectus ##
-<br>
+
 I will be looking to update the look and feel of the blog VERY soon. I like this theme, but, I am in dire need of an update
 
 *Until next time*<br>
